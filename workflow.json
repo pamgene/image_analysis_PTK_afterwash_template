@@ -1,8 +1,8 @@
 {
   "kind": "Workflow",
-  "id": "6d9deed8364dd0717b9d62aeafaafa21",
+  "id": "07bd3af45f259674834661ea5f3d563a",
   "isDeleted": false,
-  "rev": "9-0c84a2a196d47248c8db0d8756a2512a",
+  "rev": "4-c5cc04d1eb13d646a644efaf6639b539",
   "description": "image analysis PTK After Wash",
   "name": "image_analysis_PTK_AfterWash",
   "createdBy": "ginberg",
@@ -13,11 +13,11 @@
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2022-03-21T08:56:12.216788Z"
+    "value": "2022-03-23T08:30:23.374211Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-03-21T08:58:42.658412Z"
+    "value": "2022-03-23T08:40:05.950604Z"
   },
   "urls": [
     {
@@ -42,7 +42,7 @@
     "kind": "Url",
     "uri": "https://github.com/tercen/image_analysis_PTK_AfterWash_template"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "authors": [],
   "isPublic": false,
   "projectId": "ba516d78a1a52fff3d5ade71588d64f8",
@@ -596,7 +596,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 15
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -687,7 +687,7 @@
             {
               "kind": "Pair",
               "key": "cpu",
-              "value": "0"
+              "value": "20"
             },
             {
               "kind": "Pair",
@@ -1205,7 +1205,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 3060
+          "nRows": 1
         },
         "filters": {
           "kind": "Filters",
@@ -1296,7 +1296,7 @@
             {
               "kind": "Pair",
               "key": "cpu",
-              "value": "0"
+              "value": "20"
             },
             {
               "kind": "Pair",
@@ -1333,7 +1333,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 9
+          "nRows": 1
         },
         "taskId": ""
       },

@@ -1,23 +1,23 @@
 {
   "kind": "Workflow",
-  "id": "07bd3af45f259674834661ea5f3d563a",
+  "id": "f153ee541bf0b953e30242dd799c31bf",
   "isDeleted": false,
-  "rev": "5-ee81acf56f0827fee1df337c963b3b68",
+  "rev": "4-d65aae49a0da947a5baa120e0ce6b994",
   "description": "image analysis PTK After Wash",
   "name": "image_analysis_PTK_AfterWash",
-  "createdBy": "ginberg",
+  "createdBy": "fnaji",
   "acl": {
     "kind": "Acl",
-    "owner": "pamgene",
+    "owner": "190100FILHOL",
     "aces": []
   },
   "createdDate": {
     "kind": "Date",
-    "value": "2022-03-23T08:30:23.374211Z"
+    "value": "2022-06-20T12:52:51.931689Z"
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2022-03-24T12:46:23.895854Z"
+    "value": "2022-06-20T12:54:05.612438Z"
   },
   "urls": [
     {
@@ -31,11 +31,6 @@
       "kind": "Pair",
       "key": "copyOf",
       "value": "32686b39f178f64eef1bbd3844503a9f"
-    },
-    {
-      "kind": "Pair",
-      "key": "workflow.template",
-      "value": ""
     }
   ],
   "url": {
@@ -45,7 +40,7 @@
   "version": "0.0.5",
   "authors": [],
   "isPublic": false,
-  "projectId": "ba516d78a1a52fff3d5ade71588d64f8",
+  "projectId": "f153ee541bf0b953e30242dd79943569",
   "folderId": "",
   "links": [
     {
@@ -299,7 +294,7 @@
             "kind": "OperatorRef",
             "name": "PS12 images",
             "version": "1.0.0",
-            "operatorId": "c845ceade32c4423bc616ff5ab238feb",
+            "operatorId": "f153ee541bf0b953e30242dd798878b3",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
@@ -343,7 +338,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "1793d35c-9af6-44f5-b5e1-7e375d56be15"
+        "id": "ea038cc1-be3f-4292-a2fd-0e896a8172ef"
       }
     },
     {
@@ -377,7 +372,7 @@
         "topLeft": {
           "kind": "Point",
           "x": 973.5548046875001,
-          "y": 408.5
+          "y": 407.5
         }
       },
       "state": {
@@ -596,7 +591,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 1
+          "nRows": 60
         },
         "filters": {
           "kind": "Filters",
@@ -628,8 +623,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "pamsoft_grid_operator",
-            "version": "1.0.48",
-            "operatorId": "c845ceade32c4423bc616ff5ab239827",
+            "version": "1.0.52",
+            "operatorId": "f153ee541bf0b953e30242dd79888af1",
             "operatorKind": "DockerOperator",
             "propertyValues": [
               {
@@ -687,12 +682,27 @@
             {
               "kind": "Pair",
               "key": "cpu",
-              "value": "20"
+              "value": "36"
             },
             {
               "kind": "Pair",
               "key": "ram",
+              "value": "20000000000"
+            },
+            {
+              "kind": "Pair",
+              "key": "cpu-shares",
               "value": "0"
+            },
+            {
+              "kind": "Pair",
+              "key": "tercen.collect.stats",
+              "value": "false"
+            },
+            {
+              "kind": "Pair",
+              "key": "debug",
+              "value": "false"
             }
           ]
         },
@@ -730,7 +740,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "091da16e-c278-402b-98f2-43f788a0315a"
+        "id": "0f6f50cb-a3af-412a-83ef-529db7e7cbb8"
       }
     },
     {
@@ -944,13 +954,13 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 122.47956848144531,
+          "x": 122.47987365722656,
           "y": 55.0
         },
         "topLeft": {
           "kind": "Point",
           "x": 957.0842187500002,
-          "y": 776.5
+          "y": 777.5
         }
       },
       "state": {
@@ -1205,7 +1215,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 1
+          "nRows": 12240
         },
         "filters": {
           "kind": "Filters",
@@ -1237,8 +1247,8 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "pamsoft_grid_qt_operator",
-            "version": "1.0.48",
-            "operatorId": "c845ceade32c4423bc616ff5ab23b332",
+            "version": "1.0.52",
+            "operatorId": "f153ee541bf0b953e30242dd79889ac3",
             "operatorKind": "DockerOperator",
             "propertyValues": [
               {
@@ -1296,12 +1306,27 @@
             {
               "kind": "Pair",
               "key": "cpu",
-              "value": "20"
+              "value": "36"
             },
             {
               "kind": "Pair",
               "key": "ram",
+              "value": "20000000000"
+            },
+            {
+              "kind": "Pair",
+              "key": "cpu-shares",
               "value": "0"
+            },
+            {
+              "kind": "Pair",
+              "key": "tercen.collect.stats",
+              "value": "false"
+            },
+            {
+              "kind": "Pair",
+              "key": "debug",
+              "value": "false"
             }
           ]
         },
@@ -1333,13 +1358,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 1
+          "nRows": 9
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "581e5e92-0ff4-4400-af64-ed686e06a599"
+        "id": "a79280ea-d09d-47b8-a3d4-1e32e09ab0fe"
       }
     },
     {
@@ -1628,7 +1653,7 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 3060
+          "nRows": 12240
         },
         "filters": {
           "kind": "Filters",
@@ -1661,7 +1686,7 @@
             "kind": "OperatorRef",
             "name": "Pamsoft Grid Shiny Operator",
             "version": "1.0.24",
-            "operatorId": "c845ceade32c4423bc616ff5ab6fc5fb",
+            "operatorId": "f153ee541bf0b953e30242dd7988b1af",
             "operatorKind": "ShinyOperator",
             "propertyValues": [
               {
@@ -1724,7 +1749,22 @@
             {
               "kind": "Pair",
               "key": "ram",
+              "value": "10000000000"
+            },
+            {
+              "kind": "Pair",
+              "key": "cpu-shares",
               "value": "0"
+            },
+            {
+              "kind": "Pair",
+              "key": "tercen.collect.stats",
+              "value": "false"
+            },
+            {
+              "kind": "Pair",
+              "key": "debug",
+              "value": "false"
             }
           ]
         },
@@ -1762,7 +1802,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "77400488-af95-4287-b5f2-b1870c5686de"
+        "id": "58d8f1bc-4527-4afd-88d8-727f385edd00"
       }
     },
     {
@@ -1790,7 +1830,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 101.92768859863281,
+          "x": 101.9278564453125,
           "y": 55.0
         },
         "topLeft": {
@@ -2343,7 +2383,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "6a06a575-76bd-481b-b79d-304a1067db31"
+        "id": "9978a325-8be7-49bb-b1e5-8f967de52f8e"
       }
     },
     {
@@ -2388,7 +2428,7 @@
       "kind": "TableStep",
       "id": "fcbaf7e7-16a2-4699-afd5-5b49bd4a027b",
       "groupId": "",
-      "name": "Evolve Folder zip",
+      "name": "Evolve folder zip",
       "inputs": [],
       "outputs": [
         {
@@ -2402,7 +2442,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 118.51763916015625,
+          "x": 115.745849609375,
           "y": 55.0
         },
         "topLeft": {
@@ -2422,7 +2462,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "09e8b67a-f5d7-4179-98a5-d11bf5367892",
+          "id": "b717c8c6-97e3-4610-b4e0-9845fa41d54c",
           "relations": []
         }
       }
@@ -2452,7 +2492,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 112.16165161132812,
+          "x": 112.16188049316406,
           "y": 55.0
         },
         "topLeft": {
@@ -2622,7 +2662,7 @@
             "kind": "OperatorRef",
             "name": "PS12 Image Overview Shiny Operator",
             "version": "0.0.5",
-            "operatorId": "07bd3af45f259674834661ea5fedc7bd",
+            "operatorId": "f153ee541bf0b953e30242dd7988bcf6",
             "operatorKind": "ShinyOperator",
             "propertyValues": [],
             "url": {
@@ -2666,13 +2706,13 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "92335c06-0d0e-4b62-860f-6983c58bfcf9"
+        "id": "dbe5a3ca-d7d5-4542-a55d-b2a1efbee4f1"
       }
     }
   ],
   "offset": {
     "kind": "Point",
-    "x": -433.0,
-    "y": -224.0
+    "x": -406.0,
+    "y": -167.0
   }
 }

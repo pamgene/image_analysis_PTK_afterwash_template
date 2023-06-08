@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "0e19b61311c69fe34f479b830b8e78ff",
   "isDeleted": false,
-  "rev": "9-889a0521cb66ee16820e299787a50702",
+  "rev": "10-aae1d74bf9dead7d0097d060e206ecde",
   "description": "image analysis PTK afterwash",
   "name": "image_analysis_PTK_afterwash",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-06-07T12:32:13.592029Z"
+    "value": "2023-06-08T09:08:27.126453Z"
   },
   "urls": [
     {
@@ -309,13 +309,13 @@
           "operatorRef": {
             "kind": "OperatorRef",
             "name": "PS12 images",
-            "version": "1.0.0",
-            "operatorId": "5fdacf2e254f508d0bd669ac03b3e7e3",
+            "version": "1.2.2",
+            "operatorId": "5e029e4d1e70a9936d37296888ef9037",
             "operatorKind": "ROperator",
             "propertyValues": [],
             "url": {
               "kind": "Url",
-              "uri": "https://github.com/tercen/ps12image_operator"
+              "uri": "https://github.com/pamgene/ps12image_operator"
             }
           },
           "environment": [

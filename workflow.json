@@ -2,7 +2,7 @@
   "kind": "Workflow",
   "id": "7d14e12b0ec4e840f0bc1c2ed832963d",
   "isDeleted": false,
-  "rev": "4-9fd6e3449e55b526f3d7548aad14d501",
+  "rev": "11-63d1b2f9b37a83816b1eccb157eb84bd",
   "description": "image analysis PTK afterwash",
   "name": "image_analysis_PTK_afterwash_template",
   "createdBy": "dschuller",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2023-09-21T11:37:18.902457Z"
+    "value": "2023-11-01T15:47:34.789233Z"
   },
   "urls": [
     {
@@ -395,7 +395,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "f8a7b787-f995-4722-97ee-0529df489a7d"
+        "id": "ae45d40d-91bd-4a34-b91c-30547ddb3959"
       },
       "parentDataStepId": ""
     },
@@ -437,7 +437,7 @@
         "kind": "TableStepModel",
         "relation": {
           "kind": "UnionRelation",
-          "id": "ec3c2787-9330-4acf-8ffb-07354a9cf8f5",
+          "id": "4df5be27-7ebb-4d9c-b4e4-67f10f9420e0",
           "relations": []
         }
       }
@@ -711,7 +711,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "71c9e9c3-2d65-4d24-8564-c3836a53fb90"
+        "id": "ce46412b-cda3-44ea-bd6f-5362cdc9bba5"
       },
       "parentDataStepId": ""
     },
@@ -1118,7 +1118,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "8c19b511-0c25-4094-8b81-f7f0e8da317b"
+        "id": "87201016-deb1-4ffc-b820-52286d12c53a"
       },
       "parentDataStepId": ""
     },
@@ -1837,7 +1837,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "a529aa4c-8dd0-4094-9086-4f795c89c56d"
+        "id": "0d3c11dd-4783-4a14-b22c-0467ad08ce6f"
       },
       "parentDataStepId": ""
     },
@@ -2466,7 +2466,7 @@
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "20d05412-2aa8-49f2-8bad-0fd454ad2c82"
+        "id": "afe06afc-f5fb-4f6a-a1e2-c0bf8327090e"
       },
       "parentDataStepId": ""
     },
@@ -2922,14 +2922,98 @@
               "kind": "GraphicalFactor",
               "factor": {
                 "kind": "Factor",
-                "name": "js0.UniprotAccession",
+                "name": "js0.Sequence",
                 "type": "string"
               },
               "rectangle": {
                 "kind": "Rectangle",
                 "extent": {
                   "kind": "Point",
-                  "x": 65.0,
+                  "x": 120.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "js0.SeqMatch",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 120.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "js0.UniprotID",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 130.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "js0.UniprotName",
+                "type": "string"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 150.0,
+                  "y": 30.0
+                },
+                "topLeft": {
+                  "kind": "Point",
+                  "x": 0.0,
+                  "y": 0.0
+                }
+              }
+            },
+            {
+              "kind": "GraphicalFactor",
+              "factor": {
+                "kind": "Factor",
+                "name": "js0.SeqSimilarity",
+                "type": "double"
+              },
+              "rectangle": {
+                "kind": "Rectangle",
+                "extent": {
+                  "kind": "Point",
+                  "x": 170.0,
                   "y": 30.0
                 },
                 "topLeft": {
@@ -2983,13 +3067,13 @@
             }
           ],
           "rectangleSelections": [],
-          "nRows": 12240
+          "nRows": 15900
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "b824050c-d43c-4816-abe9-c4f440513efd"
+        "id": "aacf8ea5-f187-4310-8cc2-02c70c7f3a1a"
       },
       "parentDataStepId": ""
     },
@@ -3035,7 +3119,7 @@
       "kind": "TableStep",
       "id": "a5d543ad-26d9-4231-b5b7-6ab492a3a895",
       "groupId": "",
-      "name": "86412 Array Layout short.txt",
+      "name": "enrichment_86402_86412_87102_arrays.csv",
       "inputs": [],
       "outputs": [
         {
@@ -3049,12 +3133,12 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 182.80581665039062,
+          "x": 278.2297058105469,
           "y": 55.0
         },
         "topLeft": {
           "kind": "Point",
-          "x": 1252.505,
+          "x": 1253.505,
           "y": 782.5
         }
       },
@@ -3062,15 +3146,41 @@
         "kind": "StepState",
         "taskId": "",
         "taskState": {
-          "kind": "InitState"
+          "kind": "DoneState"
         }
       },
       "model": {
         "kind": "TableStepModel",
         "relation": {
-          "kind": "UnionRelation",
-          "id": "6c86ff61-34a1-423a-abfb-a462093ce946",
-          "relations": []
+          "kind": "RenameRelation",
+          "id": "rename_af71db16af576589caa54bf951caf045",
+          "relation": {
+            "kind": "SimpleRelation",
+            "id": "af71db16af576589caa54bf951caf045",
+            "index": 0
+          },
+          "inNames": [
+            "ID",
+            "Sequence",
+            "SeqMatch",
+            "UniprotName",
+            "UniprotID",
+            "SeqSimilarity",
+            "family",
+            "af71db16af576589caa54bf951caf045._rids",
+            "af71db16af576589caa54bf951caf045.tlbId"
+          ],
+          "outNames": [
+            "ID",
+            "Sequence",
+            "SeqMatch",
+            "UniprotName",
+            "UniprotID",
+            "SeqSimilarity",
+            "family",
+            "rowId",
+            "tableId"
+          ]
         }
       }
     },
@@ -3144,7 +3254,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": -420.0,
-    "y": -83.0
+    "x": -397.0,
+    "y": -132.0
   }
 }

@@ -655,7 +655,7 @@
             {
               "kind": "Pair",
               "key": "ram",
-              "value": "1000000000"
+              "value": "0"
             },
             {
               "kind": "Pair",
@@ -1057,12 +1057,12 @@
             {
               "kind": "Pair",
               "key": "cpu",
-              "value": "36"
+              "value": "0"
             },
             {
               "kind": "Pair",
               "key": "ram",
-              "value": "20000000000"
+              "value": "0"
             },
             {
               "kind": "Pair",
@@ -1781,7 +1781,7 @@
             {
               "kind": "Pair",
               "key": "ram",
-              "value": "1000000000"
+              "value": "0"
             },
             {
               "kind": "Pair",
@@ -2405,12 +2405,12 @@
             {
               "kind": "Pair",
               "key": "cpu",
-              "value": "36"
+              "value": "0"
             },
             {
               "kind": "Pair",
               "key": "ram",
-              "value": "20000000000"
+              "value": "0"
             },
             {
               "kind": "Pair",

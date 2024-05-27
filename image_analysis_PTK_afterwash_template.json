@@ -394,7 +394,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "751acf14-e046-47b2-8bd5-6203478dc012"
+    "id": "2981edf8-3ecb-44e5-8a14-f478f7a93c66"
    },
    "parentDataStepId": ""
   },
@@ -402,7 +402,7 @@
    "kind": "TableStep",
    "id": "fcbaf7e7-16a2-4699-afd5-5b49bd4a027b",
    "groupId": "",
-   "name": "641024305_641024309_641024313-on 1200PTKlysv06-run 221028091613.zip",
+   "name": "641031403_641031404_641031406-on 1200PTKlysv06-run 230703112607.zip",
    "inputs": [],
    "outputs": [
     {
@@ -437,7 +437,7 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "UnionRelation",
-     "id": "d8f27b73-c437-4b2f-9ff4-e0535f7d17d3",
+     "id": "388d0811-4d85-4751-b81f-69fc04ec2faf",
      "relations": []
     }
    }
@@ -717,7 +717,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "7eb66bd0-7cbf-4c93-a79f-32d0a77b7d90"
+    "id": "965fd4d5-4119-4213-ad99-661020845113"
    },
    "parentDataStepId": ""
   },
@@ -1131,7 +1131,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "861beb38-501b-4cec-9cd2-3cfadc33e1f8"
+    "id": "ce58b184-f82c-4986-98f9-cfeed45fd182"
    },
    "parentDataStepId": ""
   },
@@ -1679,7 +1679,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "7b7f5e09-3c00-4d98-a3c1-5b40be0aaf87"
+    "id": "8b10a18e-a914-41ed-bcd3-099d1c12f97e"
    },
    "parentDataStepId": ""
   },
@@ -2207,7 +2207,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "b3f09a5e-8549-4a3f-b8ff-b49d33e7073b"
+    "id": "ec762bbc-5df1-45d6-ad83-e5fc3a6cb837"
    },
    "parentDataStepId": ""
   },
@@ -2572,7 +2572,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 120.0,
+         "x": 44.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2593,7 +2593,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 120.0,
+         "x": 43.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2614,7 +2614,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 170.0,
+         "x": 62.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2656,7 +2656,7 @@
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 60.0,
+         "x": 129.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2691,14 +2691,14 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "js0.SeqMatch",
+        "name": "js0.PepProtein_SeqMatch",
         "type": "string"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 120.0,
+         "x": 116.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2712,14 +2712,14 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "js0.UniprotID",
+        "name": "js0.PepProtein_UniprotName",
         "type": "string"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 130.0,
+         "x": 65.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2733,14 +2733,14 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "js0.UniprotName",
+        "name": "js0.PepProtein_UniprotID",
         "type": "string"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 150.0,
+         "x": 92.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2754,14 +2754,14 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "js0.SeqSimilarity",
+        "name": "js0.PepProtein_SeqSimilarity",
         "type": "double"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 170.0,
+         "x": 65.0,
          "y": 30.0
         },
         "topLeft": {
@@ -2815,13 +2815,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 15900
+     "nRows": 15960
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "8ffa5bc7-3f30-430b-bcf1-e95213d997d0"
+    "id": "a32baa0d-cc79-41b8-b703-dd0ee5feb0c4"
    },
    "parentDataStepId": ""
   },
@@ -2868,7 +2868,7 @@
    "kind": "TableStep",
    "id": "a5d543ad-26d9-4231-b5b7-6ab492a3a895",
    "groupId": "",
-   "name": "enrichment_86402_86412_87102_arrays.csv",
+   "name": "enrichment_86312_86402_86412_87102_87202_arrays.csv",
    "inputs": [],
    "outputs": [
     {
@@ -2882,12 +2882,12 @@
     "kind": "Rectangle",
     "extent": {
      "kind": "Point",
-     "x": 278.2297058105469,
+     "x": 361.80963134765625,
      "y": 55.0
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1253.505,
+     "x": 1211.7150372314454,
      "y": 782.5
     }
    },
@@ -2903,30 +2903,34 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "RenameRelation",
-     "id": "rename_7142ca074151a9e09f9fe9bf3c279b76",
+     "id": "rename_33975aeb33a65a679bff83706702f9b6",
      "relation": {
       "kind": "SimpleRelation",
-      "id": "2d5a3115ea9d6dc6cd485380a891baeeffb562ff9d4e573f32c232ea3b65be69",
+      "id": "db8fe45513b770d86b284000d07e192424b6c9467d31c2f4435faa597f245244",
       "index": 0
      },
      "inNames": [
       "ID",
       "Sequence",
-      "SeqMatch",
-      "UniprotName",
-      "UniprotID",
-      "SeqSimilarity",
+      "PepProtein_SeqMatch",
+      "PepProtein_UniprotName",
+      "PepProtein_UniprotID",
+      "PepProtein_SeqSimilarity",
       "family",
-      "2d5a3115ea9d6dc6cd485380a891baeeffb562ff9d4e573f32c232ea3b65be69._rids"
+      "chip_num",
+      "entrezid",
+      "db8fe45513b770d86b284000d07e192424b6c9467d31c2f4435faa597f245244._rids"
      ],
      "outNames": [
       "ID",
       "Sequence",
-      "SeqMatch",
-      "UniprotName",
-      "UniprotID",
-      "SeqSimilarity",
+      "PepProtein_SeqMatch",
+      "PepProtein_UniprotName",
+      "PepProtein_UniprotID",
+      "PepProtein_SeqSimilarity",
       "family",
+      "chip_num",
+      "entrezid",
       "rowId"
      ]
     }
@@ -3004,8 +3008,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": -535.0,
-  "y": -445.0
+  "x": -457.0,
+  "y": -112.0
  },
  "scale": 1.0
 }

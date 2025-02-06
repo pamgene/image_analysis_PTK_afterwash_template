@@ -394,7 +394,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "2981edf8-3ecb-44e5-8a14-f478f7a93c66"
+    "id": "9022ea3a-9c71-4d80-9d86-2bd409f2be50"
    },
    "parentDataStepId": ""
   },
@@ -437,9 +437,10 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "UnionRelation",
-     "id": "388d0811-4d85-4751-b81f-69fc04ec2faf",
+     "id": "caaf19c2-130e-4a34-8310-8db79c59fd4d",
      "relations": []
-    }
+    },
+    "filterSelector": ""
    }
   },
   {
@@ -717,7 +718,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "965fd4d5-4119-4213-ad99-661020845113"
+    "id": "a06d9254-cf0e-4d63-a929-b483d7b0f58b"
    },
    "parentDataStepId": ""
   },
@@ -1131,7 +1132,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "ce58b184-f82c-4986-98f9-cfeed45fd182"
+    "id": "3e596e45-09c3-4714-afd8-3906ccbca774"
    },
    "parentDataStepId": ""
   },
@@ -1679,7 +1680,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "8b10a18e-a914-41ed-bcd3-099d1c12f97e"
+    "id": "75bc2eda-1ad3-4468-ab8d-250f641b4fd5"
    },
    "parentDataStepId": ""
   },
@@ -2207,7 +2208,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "ec762bbc-5df1-45d6-ad83-e5fc3a6cb837"
+    "id": "24f18beb-04d9-4c95-bcc5-6be0ea88a000"
    },
    "parentDataStepId": ""
   },
@@ -2754,6 +2755,27 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
+        "name": "js0.entrezid",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 120.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
         "name": "js0.PepProtein_SeqSimilarity",
         "type": "double"
        },
@@ -2821,7 +2843,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "a32baa0d-cc79-41b8-b703-dd0ee5feb0c4"
+    "id": "3cda4069-f507-49bf-a62e-e4858cd365fc"
    },
    "parentDataStepId": ""
   },
@@ -2903,10 +2925,10 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "RenameRelation",
-     "id": "rename_33975aeb33a65a679bff83706702f9b6",
+     "id": "rename_bd72ff6c62dabbe0efa724054c42c1c6",
      "relation": {
       "kind": "SimpleRelation",
-      "id": "db8fe45513b770d86b284000d07e192424b6c9467d31c2f4435faa597f245244",
+      "id": "8a74ac3718df417a42b2a0971b14802a5887d6c6ab448e682366e2da2a80ba40",
       "index": 0
      },
      "inNames": [
@@ -2919,7 +2941,7 @@
       "family",
       "chip_num",
       "entrezid",
-      "db8fe45513b770d86b284000d07e192424b6c9467d31c2f4435faa597f245244._rids"
+      "8a74ac3718df417a42b2a0971b14802a5887d6c6ab448e682366e2da2a80ba40._rids"
      ],
      "outNames": [
       "ID",
@@ -2933,7 +2955,8 @@
       "entrezid",
       "rowId"
      ]
-    }
+    },
+    "filterSelector": ""
    }
   },
   {
@@ -3008,8 +3031,8 @@
  ],
  "offset": {
   "kind": "Point",
-  "x": -457.0,
-  "y": -112.0
+  "x": -435.0,
+  "y": -166.0
  },
  "scale": 1.0
 }

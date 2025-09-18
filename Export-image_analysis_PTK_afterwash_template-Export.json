@@ -1,10 +1,10 @@
 {
- "kind": "FileDocument",
- "id": "README.md",
+ "kind": "TableSchema",
+ "id": "7",
  "isDeleted": false,
  "rev": "",
  "description": "",
- "name": "README.md",
+ "name": "Export-image_analysis_PTK_afterwash_template-Export",
  "acl": {
   "kind": "Acl",
   "owner": "",
@@ -29,14 +29,13 @@
  "isPublic": false,
  "projectId": "",
  "folderId": "",
- "dataUri": "lfs/3d/d5/0a03f6c30b693b69145fdc9ab5470972898dd5608f3e446c381e6be3d4ea",
- "metadata": {
-  "kind": "FileMetadata",
-  "contentType": "",
-  "cacheControl": "",
-  "contentEncoding": "",
-  "contentLanguage": "",
-  "md5Hash": ""
+ "nRows": 0,
+ "columns": [],
+ "dataDirectory": "",
+ "relation": {
+  "kind": "SimpleRelation",
+  "id": "144dcf9eac94e928d873096858d9947b00bff512c4090eaad5471b26c1b8382f",
+  "index": 0
  },
- "size": 428
+ "size": 0
 }

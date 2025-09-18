@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "6",
+ "id": "5",
  "isDeleted": false,
  "rev": "",
  "description": "image analysis PTK afterwash",
@@ -116,6 +116,12 @@
    "id": "542a93c8-a3e7-4bbd-98e4-f37e7697f232",
    "inputId": "ebc6ef4e-e9d8-447c-9793-409c80254648-i-0",
    "outputId": "c3c3979b-56f2-487f-a4e5-46b74e5b799a-o-0"
+  },
+  {
+   "kind": "Link",
+   "id": "06897bb3-ed05-4bdb-9c14-a27d93e4a370",
+   "inputId": "8e7a2846-ca23-47ed-876f-d87dfd3545ba-i-0",
+   "outputId": "8ae41e84-d975-4355-89ad-e16714aca2e9-o-0"
   }
  ],
  "steps": [
@@ -314,7 +320,7 @@
       "kind": "OperatorRef",
       "name": "PS12 images",
       "version": "1.2.2",
-      "operatorId": "1",
+      "operatorId": "0",
       "operatorKind": "ROperator",
       "propertyValues": [],
       "url": {
@@ -394,7 +400,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "9022ea3a-9c71-4d80-9d86-2bd409f2be50"
+    "id": "c53cc0ca-738a-4c40-984e-b46567864ea9"
    },
    "parentDataStepId": ""
   },
@@ -437,7 +443,7 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "UnionRelation",
-     "id": "caaf19c2-130e-4a34-8310-8db79c59fd4d",
+     "id": "96afb12f-ff07-4108-b444-1607afb78d31",
      "relations": []
     },
     "filterSelector": ""
@@ -638,7 +644,7 @@
       "kind": "OperatorRef",
       "name": "PS12 Image Overview Shiny Operator",
       "version": "0.2.1",
-      "operatorId": "4",
+      "operatorId": "3",
       "operatorKind": "ShinyOperator",
       "propertyValues": [],
       "url": {
@@ -718,7 +724,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "a06d9254-cf0e-4d63-a929-b483d7b0f58b"
+    "id": "6b985813-c3ac-4e8b-9eb5-96511f7b98af"
    },
    "parentDataStepId": ""
   },
@@ -991,7 +997,8 @@
           "kind": "Factor",
           "name": "ds0.Cycle",
           "type": "double"
-         }
+         },
+         "preProcessors": []
         }
        ],
        "meta": [],
@@ -1006,7 +1013,7 @@
       "kind": "OperatorRef",
       "name": "pamsoft_grid_operator",
       "version": "1.4.1",
-      "operatorId": "2",
+      "operatorId": "1",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -1132,7 +1139,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "3e596e45-09c3-4714-afd8-3906ccbca774"
+    "id": "8dd15ef4-a0c6-4ba0-87d9-2235aeecf2cd"
    },
    "parentDataStepId": ""
   },
@@ -1264,7 +1271,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1078.0842187500002,
+     "x": 1079.0842187500002,
      "y": 603.5
     }
    },
@@ -1539,7 +1546,8 @@
           "kind": "Factor",
           "name": "ds0.Cycle",
           "type": "double"
-         }
+         },
+         "preProcessors": []
         }
        ],
        "meta": [],
@@ -1553,8 +1561,8 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Pamsoft Grid Shiny Operator",
-      "version": "1.2.1",
-      "operatorId": "0",
+      "version": "1.2.2",
+      "operatorId": "6",
       "operatorKind": "ShinyOperator",
       "propertyValues": [
        {
@@ -1680,7 +1688,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "75bc2eda-1ad3-4468-ab8d-250f641b4fd5"
+    "id": "bdd6a001-444f-4797-9dbf-b4b6a841aeac"
    },
    "parentDataStepId": ""
   },
@@ -2082,7 +2090,7 @@
       "kind": "OperatorRef",
       "name": "pamsoft_grid_qt_operator",
       "version": "1.4.2",
-      "operatorId": "3",
+      "operatorId": "2",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -2208,7 +2216,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "24f18beb-04d9-4c95-bcc5-6be0ea88a000"
+    "id": "6aab5c4d-a06d-428d-926a-d955d3cf7c68"
    },
    "parentDataStepId": ""
   },
@@ -2412,7 +2420,8 @@
           "kind": "Factor",
           "name": "ds0.Cycle",
           "type": "double"
-         }
+         },
+         "preProcessors": []
         }
        ],
        "meta": [],
@@ -2843,7 +2852,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "3cda4069-f507-49bf-a62e-e4858cd365fc"
+    "id": "0ea530ef-76c8-4d8b-b010-8a39f833f1bf"
    },
    "parentDataStepId": ""
   },
@@ -2890,7 +2899,7 @@
    "kind": "TableStep",
    "id": "a5d543ad-26d9-4231-b5b7-6ab492a3a895",
    "groupId": "",
-   "name": "enrichment_86312_86402_86412_87102_87202_arrays.csv",
+   "name": "enrichment_86312_86402_86412_87102_87202.csv",
    "inputs": [],
    "outputs": [
     {
@@ -2904,12 +2913,12 @@
     "kind": "Rectangle",
     "extent": {
      "kind": "Point",
-     "x": 361.80963134765625,
+     "x": 318.9136657714844,
      "y": 55.0
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1211.7150372314454,
+     "x": 1234.1630200195314,
      "y": 782.5
     }
    },
@@ -2925,10 +2934,10 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "RenameRelation",
-     "id": "rename_bd72ff6c62dabbe0efa724054c42c1c6",
+     "id": "rename_e42cb0ccaeb3f469dd1a9089dbb1b2c6",
      "relation": {
       "kind": "SimpleRelation",
-      "id": "8a74ac3718df417a42b2a0971b14802a5887d6c6ab448e682366e2da2a80ba40",
+      "id": "f89bd41bc1c00e2e52ea2eddd0c9ac28ea8a910ec1f6022e716f2f25ea44ecbd",
       "index": 0
      },
      "inNames": [
@@ -2941,7 +2950,7 @@
       "family",
       "chip_num",
       "entrezid",
-      "8a74ac3718df417a42b2a0971b14802a5887d6c6ab448e682366e2da2a80ba40._rids"
+      "f89bd41bc1c00e2e52ea2eddd0c9ac28ea8a910ec1f6022e716f2f25ea44ecbd._rids"
      ],
      "outNames": [
       "ID",
@@ -3027,12 +3036,463 @@
     "joinType": ""
    },
    "rightAttributes": []
+  },
+  {
+   "kind": "DataStep",
+   "id": "8e7a2846-ca23-47ed-876f-d87dfd3545ba",
+   "groupId": "",
+   "name": "Check replaced grids",
+   "inputs": [
+    {
+     "kind": "InputPort",
+     "id": "8e7a2846-ca23-47ed-876f-d87dfd3545ba-i-0",
+     "linkType": "relation",
+     "name": "data"
+    }
+   ],
+   "outputs": [
+    {
+     "kind": "OutputPort",
+     "id": "8e7a2846-ca23-47ed-876f-d87dfd3545ba-o-0",
+     "linkType": "relation",
+     "name": "data"
+    }
+   ],
+   "rectangle": {
+    "kind": "Rectangle",
+    "extent": {
+     "kind": "Point",
+     "x": 141.32379150390625,
+     "y": 55.0
+    },
+    "topLeft": {
+     "kind": "Point",
+     "x": 839.3862512207033,
+     "y": 774.5
+    }
+   },
+   "state": {
+    "kind": "StepState",
+    "taskId": "",
+    "taskState": {
+     "kind": "InitState"
+    }
+   },
+   "description": "",
+   "model": {
+    "kind": "Crosstab",
+    "axis": {
+     "kind": "XYAxisList",
+     "rectangleSelections": [],
+     "xyAxis": [
+      {
+       "kind": "XYAxis",
+       "chart": {
+        "kind": "ChartPoint",
+        "name": "",
+        "properties": {
+         "kind": "Properties",
+         "properties": [],
+         "propertyValues": []
+        },
+        "pointSize": 4
+       },
+       "colors": {
+        "kind": "Colors",
+        "factors": [],
+        "palette": {
+         "kind": "CategoryPalette",
+         "backcolor": 0,
+         "properties": [],
+         "colorList": {
+          "kind": "ColorList",
+          "name": ""
+         },
+         "stringColorElements": []
+        }
+       },
+       "errors": {
+        "kind": "Errors",
+        "factors": []
+       },
+       "labels": {
+        "kind": "Labels",
+        "factors": []
+       },
+       "xAxis": {
+        "kind": "Axis",
+        "axisExtent": {
+         "kind": "Point",
+         "x": 80.0,
+         "y": 30.0
+        },
+        "axisSettings": {
+         "kind": "AxisSettings",
+         "meta": []
+        },
+        "graphicalFactor": {
+         "kind": "GraphicalFactor",
+         "factor": {
+          "kind": "Factor",
+          "name": "",
+          "type": "string"
+         },
+         "rectangle": {
+          "kind": "Rectangle",
+          "extent": {
+           "kind": "Point",
+           "x": 0.0,
+           "y": 0.0
+          },
+          "topLeft": {
+           "kind": "Point",
+           "x": 0.0,
+           "y": 0.0
+          }
+         }
+        }
+       },
+       "yAxis": {
+        "kind": "Axis",
+        "axisExtent": {
+         "kind": "Point",
+         "x": 80.0,
+         "y": 30.0
+        },
+        "axisSettings": {
+         "kind": "AxisSettings",
+         "meta": []
+        },
+        "graphicalFactor": {
+         "kind": "GraphicalFactor",
+         "factor": {
+          "kind": "Factor",
+          "name": "ds2.gridX",
+          "type": "double"
+         },
+         "rectangle": {
+          "kind": "Rectangle",
+          "extent": {
+           "kind": "Point",
+           "x": 0.0,
+           "y": 0.0
+          },
+          "topLeft": {
+           "kind": "Point",
+           "x": 0.0,
+           "y": 0.0
+          }
+         }
+        }
+       },
+       "taskId": "",
+       "preprocessors": []
+      }
+     ]
+    },
+    "columnTable": {
+     "kind": "CrosstabTable",
+     "cellSize": 250.0,
+     "offset": 0,
+     "graphicalFactors": [
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "ds2..documentId",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 100.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "ds2.grdImageNameUsed",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 200.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "ds2.Image",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 90.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "ds2..spotRow",
+        "type": "double"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 110.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "ds2..spotCol",
+        "type": "double"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 110.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      },
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "ds2..ID",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      }
+     ],
+     "rectangleSelections": [],
+     "nRows": 12240
+    },
+    "filters": {
+     "kind": "Filters",
+     "removeNaN": true,
+     "namedFilters": [
+      {
+       "kind": "NamedFilter",
+       "logical": "and",
+       "not": false,
+       "filterExprs": [
+        {
+         "kind": "FilterExpr",
+         "filterOp": "equals",
+         "stringValue": "94",
+         "factor": {
+          "kind": "Factor",
+          "name": "ds0.Cycle",
+          "type": "double"
+         },
+         "preProcessors": []
+        }
+       ],
+       "meta": [],
+       "name": "Cycle  = 94"
+      }
+     ]
+    },
+    "operatorSettings": {
+     "kind": "OperatorSettings",
+     "namespace": "ds5",
+     "operatorRef": {
+      "kind": "OperatorRef",
+      "name": "Pamsoft Grid Shiny Operator",
+      "version": "1.2.2",
+      "operatorId": "6",
+      "operatorKind": "ShinyOperator",
+      "propertyValues": [
+       {
+        "kind": "PropertyValue",
+        "name": "Min Diamete",
+        "value": "0.45"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Max Diameter",
+        "value": "0.85"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Saturation Limit",
+        "value": "4095"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Spot Pitch",
+        "value": "0"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "EdgeSensitivityLow",
+        "value": "0"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Edge Sensitivity",
+        "value": "0.05"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Spot Size",
+        "value": "0.66"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Segmentation Method",
+        "value": "Edge"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Rotation",
+        "value": "-2:0.25:2"
+       }
+      ],
+      "url": {
+       "kind": "Url",
+       "uri": "https://github.com/pamgene/pamsoft_grid_shiny_operator"
+      },
+      "operatorSpec": {
+       "kind": "OperatorSpec",
+       "ontologyUri": "",
+       "ontologyVersion": "",
+       "inputSpecs": [],
+       "outputSpecs": []
+      }
+     },
+     "environment": [
+      {
+       "kind": "Pair",
+       "key": "cpu",
+       "value": "0"
+      },
+      {
+       "kind": "Pair",
+       "key": "ram",
+       "value": "0"
+      },
+      {
+       "kind": "Pair",
+       "key": "cpu-shares",
+       "value": "0"
+      },
+      {
+       "kind": "Pair",
+       "key": "tercen.collect.stats",
+       "value": "false"
+      },
+      {
+       "kind": "Pair",
+       "key": "debug",
+       "value": "false"
+      }
+     ],
+     "operatorModel": {
+      "kind": "OperatorModel"
+     }
+    },
+    "rowTable": {
+     "kind": "CrosstabTable",
+     "cellSize": 250.0,
+     "offset": 0,
+     "graphicalFactors": [
+      {
+       "kind": "GraphicalFactor",
+       "factor": {
+        "kind": "Factor",
+        "name": "gs0.variable",
+        "type": "string"
+       },
+       "rectangle": {
+        "kind": "Rectangle",
+        "extent": {
+         "kind": "Point",
+         "x": 120.0,
+         "y": 30.0
+        },
+        "topLeft": {
+         "kind": "Point",
+         "x": 0.0,
+         "y": 0.0
+        }
+       }
+      }
+     ],
+     "rectangleSelections": [],
+     "nRows": 9
+    },
+    "taskId": ""
+   },
+   "computedRelation": {
+    "kind": "Relation",
+    "id": "79769b87-1343-40cb-9f38-ad9f0e4b3b01"
+   },
+   "parentDataStepId": ""
   }
  ],
  "offset": {
   "kind": "Point",
-  "x": -435.0,
-  "y": -166.0
+  "x": -370.0,
+  "y": -155.0
  },
  "scale": 1.0
 }

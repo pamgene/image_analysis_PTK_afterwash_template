@@ -1,6 +1,6 @@
 {
  "kind": "Workflow",
- "id": "5",
+ "id": "6",
  "isDeleted": false,
  "rev": "",
  "description": "image analysis PTK afterwash",
@@ -400,7 +400,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "c53cc0ca-738a-4c40-984e-b46567864ea9"
+    "id": "6997e640-7f42-43e0-9a31-7593f57a7f03"
    },
    "parentDataStepId": ""
   },
@@ -443,7 +443,7 @@
     "kind": "TableStepModel",
     "relation": {
      "kind": "UnionRelation",
-     "id": "96afb12f-ff07-4108-b444-1607afb78d31",
+     "id": "f76982b4-477b-4ab7-9b72-2376f2c7890a",
      "relations": []
     },
     "filterSelector": ""
@@ -724,7 +724,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "6b985813-c3ac-4e8b-9eb5-96511f7b98af"
+    "id": "b6bdbe14-4178-4f56-a95a-fd47e1df72e3"
    },
    "parentDataStepId": ""
   },
@@ -1139,7 +1139,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "8dd15ef4-a0c6-4ba0-87d9-2235aeecf2cd"
+    "id": "507b97ea-838a-43c5-a65a-7d8934da20a5"
    },
    "parentDataStepId": ""
   },
@@ -1562,7 +1562,7 @@
       "kind": "OperatorRef",
       "name": "Pamsoft Grid Shiny Operator",
       "version": "1.2.2",
-      "operatorId": "6",
+      "operatorId": "4",
       "operatorKind": "ShinyOperator",
       "propertyValues": [
        {
@@ -1688,7 +1688,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "bdd6a001-444f-4797-9dbf-b4b6a841aeac"
+    "id": "0dc26992-acef-4208-9e47-beb6ef9c40f2"
    },
    "parentDataStepId": ""
   },
@@ -2216,7 +2216,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "6aab5c4d-a06d-428d-926a-d955d3cf7c68"
+    "id": "94addcaa-3b88-474f-aa53-e87983927f08"
    },
    "parentDataStepId": ""
   },
@@ -2852,7 +2852,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "0ea530ef-76c8-4d8b-b010-8a39f833f1bf"
+    "id": "b33e10ca-100a-42c2-ba2b-6e6ff5d72f37"
    },
    "parentDataStepId": ""
   },
@@ -3167,7 +3167,7 @@
          "kind": "GraphicalFactor",
          "factor": {
           "kind": "Factor",
-          "name": "ds2.gridX",
+          "name": "gs1.value",
           "type": "double"
          },
          "rectangle": {
@@ -3358,7 +3358,7 @@
       "kind": "OperatorRef",
       "name": "Pamsoft Grid Shiny Operator",
       "version": "1.2.2",
-      "operatorId": "6",
+      "operatorId": "4",
       "operatorKind": "ShinyOperator",
       "propertyValues": [
        {
@@ -3459,15 +3459,15 @@
        "kind": "GraphicalFactor",
        "factor": {
         "kind": "Factor",
-        "name": "gs0.variable",
+        "name": "gs1.variable",
         "type": "string"
        },
        "rectangle": {
         "kind": "Rectangle",
         "extent": {
          "kind": "Point",
-         "x": 120.0,
-         "y": 30.0
+         "x": 80.0,
+         "y": 0.0
         },
         "topLeft": {
          "kind": "Point",
@@ -3484,15 +3484,15 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "79769b87-1343-40cb-9f38-ad9f0e4b3b01"
+    "id": "bf55720d-3e4f-4c4b-8424-0b9f8f5bd05d"
    },
    "parentDataStepId": ""
   }
  ],
  "offset": {
   "kind": "Point",
-  "x": -370.0,
-  "y": -155.0
+  "x": -457.0,
+  "y": -127.0
  },
  "scale": 1.0
 }

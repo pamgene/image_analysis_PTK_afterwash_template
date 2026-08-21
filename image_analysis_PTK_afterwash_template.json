@@ -401,7 +401,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "78438f58-a3a6-4ec3-86f5-c72c0b3ae24f"
+    "id": "30e26a76-13c9-4250-8456-aaf7d4909840"
    },
    "parentDataStepId": ""
   },
@@ -428,7 +428,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1012.5050000000001,
+     "x": 1016.5050000000001,
      "y": 217.5
     }
    },
@@ -436,16 +436,83 @@
     "kind": "StepState",
     "taskId": "",
     "taskState": {
-     "kind": "InitState"
+     "kind": "DoneState"
     }
    },
    "description": "",
    "model": {
     "kind": "TableStepModel",
     "relation": {
-     "kind": "UnionRelation",
-     "id": "4753a556-8cb8-436b-873d-ea3e6f0366d8",
-     "relations": []
+     "kind": "RenameRelation",
+     "id": "rename_f9129e94-6d2c-4bc3-a79f-deca8544cc07",
+     "relation": {
+      "kind": "InMemoryRelation",
+      "id": "430eb78d-81c2-4eb7-9b4c-0f93b4072361",
+      "inMemoryTable": {
+       "kind": "Table",
+       "nRows": 1,
+       "properties": {
+        "kind": "TableProperties",
+        "name": "",
+        "sortOrder": [],
+        "ascending": true
+       },
+       "columns": [
+        {
+         "kind": "Column",
+         "id": "documentId",
+         "name": "documentId",
+         "type": "string",
+         "nRows": 1,
+         "size": -1,
+         "metaData": {
+          "kind": "ColumnSchemaMetaData",
+          "sort": [],
+          "ascending": true,
+          "quartiles": [],
+          "properties": []
+         },
+         "storageSize": -1.0,
+         "cValues": {
+          "kind": "CValues"
+         },
+         "values": [
+          "bd863d43-dbdb-4c40-8e40-e5f9d44d1433"
+         ]
+        },
+        {
+         "kind": "Column",
+         "id": ".documentId",
+         "name": ".documentId",
+         "type": "string",
+         "nRows": 1,
+         "size": -1,
+         "metaData": {
+          "kind": "ColumnSchemaMetaData",
+          "sort": [],
+          "ascending": true,
+          "quartiles": [],
+          "properties": []
+         },
+         "storageSize": -1.0,
+         "cValues": {
+          "kind": "CValues"
+         },
+         "values": [
+          "641031403_641031404_641031406-on 1200PTKlysv06-run 230703112607.zip"
+         ]
+        }
+       ]
+      }
+     },
+     "inNames": [
+      "documentId",
+      ".documentId"
+     ],
+     "outNames": [
+      "documentId",
+      ".documentId"
+     ]
     },
     "filterSelector": ""
    }
@@ -644,8 +711,8 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Image Overview",
-      "version": "0.0.2",
-      "operatorId": "3",
+      "version": "0.0.3",
+      "operatorId": "7",
       "operatorKind": "WebAppOperator",
       "propertyValues": [],
       "url": {
@@ -726,7 +793,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "55996d88-ad11-4ccd-899e-73e29b328673"
+    "id": "b364bb87-9201-46a6-b699-aec0e6e3071d"
    },
    "parentDataStepId": ""
   },
@@ -760,7 +827,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1077.5548046875,
+     "x": 1078.5548046875,
      "y": 413.5
     }
    },
@@ -1014,8 +1081,8 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "pamsoft_grid_rust_operator",
-      "version": "0.4.0",
-      "operatorId": "6",
+      "version": "0.4.3",
+      "operatorId": "5",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -1169,7 +1236,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "f0198b56-1168-4d57-8d4b-4a1c5ccbc8ce"
+    "id": "b6076c37-62e1-482f-93ad-4115d344068b"
    },
    "parentDataStepId": ""
   },
@@ -1301,8 +1368,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1080.0842187500002,
-     "y": 603.5
+     "x": 1083.0842187500002,
+     "y": 604.5
     }
    },
    "state": {
@@ -1557,7 +1624,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 12240
+     "nRows": 1
     },
     "filters": {
      "kind": "Filters",
@@ -1591,10 +1658,26 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Grid Checker",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "operatorId": "4",
       "operatorKind": "WebAppOperator",
-      "propertyValues": [],
+      "propertyValues": [
+       {
+        "kind": "PropertyValue",
+        "name": "Spot Pitch",
+        "value": "0"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Spot Size",
+        "value": "0.66"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Default Cycle",
+        "value": "highest"
+       }
+      ],
       "url": {
        "kind": "Url",
        "uri": "https://github.com/pamgene/pamsoft_grid_flutter_operator"
@@ -1667,13 +1750,13 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 9
+     "nRows": 1
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "49775ea9-6a73-4976-a85b-0ed363c35c75"
+    "id": "86f54c96-78b3-42cf-9a67-7523ff245e5d"
    },
    "parentDataStepId": ""
   },
@@ -1707,8 +1790,8 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1071.0842187500002,
-     "y": 700.5
+     "x": 1074.0842187500002,
+     "y": 686.5
     }
    },
    "state": {
@@ -1805,7 +1888,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1061.0842187500002,
+     "x": 1064.0842187500002,
      "y": 784.5
     }
    },
@@ -2074,8 +2157,8 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "pamsoft_grid_qt_rust_operator",
-      "version": "0.2.12",
-      "operatorId": "5",
+      "version": "0.2.13",
+      "operatorId": "6",
       "operatorKind": "DockerOperator",
       "propertyValues": [
        {
@@ -2274,7 +2357,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "c94da451-b18c-4e8c-9055-a3d9d312c0d2"
+    "id": "5d25842e-9c50-4048-8e9e-660f33b63f9d"
    },
    "parentDataStepId": ""
   },
@@ -2911,7 +2994,7 @@
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "e1f9fc39-ce55-4878-95e7-afcf2943323b"
+    "id": "e288c157-5d29-48a0-9329-fd31a8c16816"
    },
    "parentDataStepId": ""
   },
@@ -2938,7 +3021,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 1194.8291403198245,
+     "x": 1196.8291403198245,
      "y": 1073.5
     }
    },
@@ -3126,7 +3209,7 @@
     },
     "topLeft": {
      "kind": "Point",
-     "x": 839.3862512207033,
+     "x": 842.3862512207033,
      "y": 774.5
     }
    },
@@ -3382,7 +3465,7 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 12240
+     "nRows": 1
     },
     "filters": {
      "kind": "Filters",
@@ -3416,10 +3499,26 @@
      "operatorRef": {
       "kind": "OperatorRef",
       "name": "Grid Checker",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "operatorId": "4",
       "operatorKind": "WebAppOperator",
-      "propertyValues": [],
+      "propertyValues": [
+       {
+        "kind": "PropertyValue",
+        "name": "Spot Pitch",
+        "value": "0"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Spot Size",
+        "value": "0.66"
+       },
+       {
+        "kind": "PropertyValue",
+        "name": "Default Cycle",
+        "value": "highest"
+       }
+      ],
       "url": {
        "kind": "Url",
        "uri": "https://github.com/pamgene/pamsoft_grid_flutter_operator"
@@ -3492,21 +3591,21 @@
       }
      ],
      "rectangleSelections": [],
-     "nRows": 9
+     "nRows": 1
     },
     "taskId": ""
    },
    "computedRelation": {
     "kind": "Relation",
-    "id": "5d078dcd-ca22-493f-8d3c-89cc2c8e6410"
+    "id": "ea07fe91-eb51-419a-81c7-bd95de4eb511"
    },
    "parentDataStepId": ""
   }
  ],
  "offset": {
   "kind": "Point",
-  "x": -393.0,
-  "y": -183.0
+  "x": -295.0,
+  "y": -229.0
  },
  "scale": 1.0
 }
